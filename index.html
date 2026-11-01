@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MK Furniture — Sultanpur | Triveni Almirah Dealer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-mark">🪑</div>
+      <div class="brand-text">
+        <h1>MK Furniture</h1>
+        <span>त्रिवेणी अलमीरा डीलर · Sultanpur</span>
+      </div>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    <nav class="mainnav" id="mainNav">
+      <button data-page="home" class="active">Home</button>
+      <button data-page="products">Products</button>
+      <button data-page="contact">Contact</button>
+      <button data-page="location">Location</button>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HOME PAGE ============ -->
+<div class="page active" id="page-home">
+
+  <section class="hero" id="heroSection">
+    <div class="hero-content">
+      <div class="badge"><span class="dot"></span> Triveni Almirah ke Authorized Dealer</div>
+      <h2>Aapke ghar ka <em>har zaroorat</em>,<br>ek hi dukaan par.</h2>
+      <p class="tag">Almirah, mattress, sofa, fridge, washing machine, chairs aur ghar ke electronics — sab kuch asli quality aur sahi daam mein, Sultanpur mein.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" onclick="goPage('products')">Products Dekhein</button>
+        <a class="btn btn-ghost" href="tel:+919628480770">📞 Abhi Call Karein</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <div class="eyebrow">HAMARE BAARE MEIN</div>
+        <h3>MK Furniture — Sultanpur ka Bharosemand Naam</h3>
+        <p>MK Furniture, Kurwar Road, Karaundia, Chunha, Sultanpur (Uttar Pradesh – 228001) par sthit ek complete home furnishing aur electronics store hai. Hum <b>Triveni Almirah</b> ke authorized dealer hain aur iske saath saath steel almirah, mattress, sofa set, wooden furniture, plastic chairs, fridge, washing machine aur roz-marra ke ghar ke electronics bhi ek hi chhat ke neeche uplabdh karate hain.</p>
+        <p>Hamari koshish rehti hai ki har customer ko sahi product, sahi advice aur sahi price par mile — chahe naya ghar saja rahe hon ya purana furniture badal rahe hon.</p>
+        <div class="stats">
+          <div class="stat"><b>Triveni</b><span>Authorized Almirah Dealer</span></div>
+          <div class="stat"><b>10+</b><span>Product Categories</span></div>
+          <div class="stat"><b>2</b><span>WhatsApp Helpline Numbers</span></div>
+        </div>
+      </div>
+      <div class="gallery-stack reveal">
+        <img class="tall" src="__IMG_about1__" alt="MK Furniture shop aisle">
+        <img src="__IMG_about2__" alt="Triveni Almirah display">
+        <img src="__IMG_about3__" alt="MK Furniture store interior">
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">HAMARE PRODUCTS</div>
+      <h3>Ek dukaan, poore ghar ka saaman</h3>
+      <p>Almirah se lekar sofa aur fridge tak — category par click karke poori list dekhein.</p>
+    </div>
+    <div class="cat-grid" id="homeCatGrid"></div>
+  </section>
+
+  <section class="wrap">
+    <div class="ceo-wrap reveal">
+      <div class="ceo-photo"><img src="__IMG_ceo__" alt="Mohd Kamil, CEO MK Furniture"></div>
+      <div class="ceo-text">
+        <div class="eyebrow">LEADERSHIP</div>
+        <h3>Mohd Kamil</h3>
+        <div class="role">CEO, MK Furniture</div>
+        <p>Mohd Kamil MK Furniture ka roz ka kaam-kaaj sambhalte hain aur Sultanpur mein isse ek jaana-maana furniture aur electronics store banane mein mehnat kar rahe hain. Customer se seedha judkar sahi salah dena aur har budget mein behtareen product dena — yahi inka tareeka hai kaam karne ka.</p>
+        <p>Unki mehnat aur lagan ne is dukaan ko Sultanpur ke logon ke liye ek bharosemand naam banaya hai.</p>
+        <div class="founder-line">Founder: <b>Mohd Kaleem</b> — jinhone MK Furniture ki neev rakhi.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="review-box reveal">
+      <div>
+        <div class="stars">★★★★★</div>
+        <h4>Customers hamare baare mein kya kehte hain</h4>
+        <p>Hamari Google Business listing par jaakar asli customer reviews padhein.</p>
+      </div>
+      <a class="g-btn" href="https://www.google.com/search?q=M+K+Furniture+Sultanpur+reviews" target="_blank" rel="noopener">🔎 Google par Reviews Dekhein</a>
+    </div>
+  </section>
+</div>
+
+<!-- ============ PRODUCTS PAGE ============ -->
+<div class="page" id="page-products">
+  <section class="wrap" style="padding-top:34px;">
+    <div class="section-head reveal">
+      <div class="eyebrow">PRODUCT CATALOG</div>
+      <h3>Poori Product List, Category Wise</h3>
+      <p>Neeche category chunein aur models, brands aur sizes dekhein. Kisi bhi product ke exact rate ke liye call ya WhatsApp karein.</p>
+    </div>
+    <div class="pill-row" id="pillRow"></div>
+    <div id="productList"></div>
+  </section>
+</div>
+
+<!-- ============ CONTACT PAGE ============ -->
+<div class="page" id="page-contact">
+  <section class="wrap" style="padding-top:34px;">
+    <div class="section-head reveal">
+      <div class="eyebrow">SAMPARK KAREIN</div>
+      <h3>Humse Baat Karein</h3>
+      <p>Kisi bhi product ki jaankari, price ya order ke liye neeche diye gaye number par call ya WhatsApp karein.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card reveal">
+        <div class="icon">📞</div>
+        <h4>Shop / CEO Contact</h4>
+        <div class="value">96284 80770</div>
+        <p>Call ya WhatsApp — order, price aur availability ke liye</p>
+        <a class="action" href="https://wa.me/919628480770" target="_blank" rel="noopener">WhatsApp Karein</a>
+      </div>
+      <div class="contact-card reveal">
+        <div class="icon">📱</div>
+        <h4>Doosra Number</h4>
+        <div class="value">78605 68382</div>
+        <p>Yeh number bhi call aur WhatsApp dono ke liye chalu hai</p>
+        <a class="action" href="https://wa.me/917860568382" target="_blank" rel="noopener">WhatsApp Karein</a>
+      </div>
+      <div class="contact-card reveal">
+        <div class="icon">🛠️</div>
+        <h4>Support / Query</h4>
+        <div class="value">72368 73389</div>
+        <p>Order ke baad ki madad ya kisi bhi sawaal ke liye support number</p>
+        <a class="action" href="tel:+917236873389">Call Karein</a>
+      </div>
+      <div class="contact-card reveal">
+        <div class="icon">✉️</div>
+        <h4>Email par likhein</h4>
+        <div class="value" style="font-size:15px;">mohammadmustaqeem820@gmail.com</div>
+        <p>Detailed query ya bulk order ke liye email karein</p>
+        <a class="action" href="mailto:mohammadmustaqeem820@gmail.com?subject=MK%20Furniture%20Query">Email Bhejein</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ LOCATION PAGE ============ -->
+<div class="page" id="page-location">
+  <section class="wrap" style="padding-top:34px;">
+    <div class="section-head reveal">
+      <div class="eyebrow">HAMARI DUKAAN TAK PAHUNCHEIN</div>
+      <h3>Location &amp; Directions</h3>
+      <p>Neeche diye gaye map se seedha Google Maps directions khol sakte hain.</p>
+    </div>
+    <a class="map-frame reveal" target="_blank" rel="noopener"
+      href="https://www.google.com/maps/dir/?api=1&destination=26.2798086,82.0596626"
+      style="display:flex; align-items:center; justify-content:center; text-decoration:none; background:linear-gradient(135deg,#fbf3e3,#f3e2c2); position:relative; overflow:hidden;">
+      <svg width="120" height="120" viewBox="0 0 24 24" fill="none" style="position:absolute; opacity:.10; top:-10px; right:-10px;">
+        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--maroon)"/>
+      </svg>
+      <div style="text-align:center; padding:20px;">
+        <div style="font-size:44px; line-height:1;">📍</div>
+        <div style="margin-top:10px; font-weight:800; font-size:17px; color:var(--maroon);">MK Furniture</div>
+        <div style="margin-top:4px; font-size:13.5px; opacity:.75;">Sultanpur Kurwar Road, Chunha</div>
+        <div style="margin-top:12px; display:inline-block; font-size:13px; font-weight:700; color:#fff; background:var(--maroon); padding:8px 18px; border-radius:999px;">Map par tap karein → Directions kholein</div>
+      </div>
+    </a>
+    <div class="addr-card reveal">
+      <div class="addr-text">
+        <h4>📍 MK Furniture</h4>
+        <p>Kurwar Road, Karaundia, Chunha, Sultanpur, Uttar Pradesh – 228001</p>
+        <p style="margin-top:8px;">Map par zoom karke aas-paas ki dukaanon aur road ka naam bhi dekh sakte hain — is se pehli baar aane wale customer ko dukaan dhoondhna aasaan hoga.</p>
+      </div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="btn btn-maroon" target="_blank" rel="noopener"
+          href="https://www.google.com/maps/dir/?api=1&destination=26.2798086,82.0596626">
+          🧭 Get Directions
+        </a>
+        <a class="btn btn-ghost" style="border-color:var(--maroon); color:var(--maroon);" target="_blank" rel="noopener"
+          href="https://www.google.com/maps/place/M+K+Furniture/@26.2798086,82.0596626,18z/data=!4m5!3m4!1s0x399a7d005bf7ca4d:0x445cf46c18702777!8m2!3d26.2798086!4d82.0596626">
+          📍 Google Maps par Kholein
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h5>MK Furniture</h5>
+      <p>Triveni Almirah ke authorized dealer. Almirah, mattress, sofa, fridge, washing machine aur ghar ke sabhi electronics — ek hi jagah.</p>
+    </div>
+    <div class="fcol">
+      Kurwar Road, Karaundia, Chunha,<br>Sultanpur, Uttar Pradesh – 228001<br><br>
+      📞 96284 80770 / 78605 68382<br>
+      ✉️ mohammadmustaqeem820@gmail.com
+    </div>
+  </div>
+</footer>
+
+<a class="float-wa" href="https://wa.me/919628480770" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<script src="script.js" defer></script>
+</body>
+</html>
